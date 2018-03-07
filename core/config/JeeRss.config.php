@@ -20,21 +20,17 @@ global $listCmdJeeRss;
 
 
 $listCmdJeeRss = array(
-
     array(
-        'name' => 'Dernier Titre',
-        'type' => 'info',
-        'subType' => 'string',
-		'configuration' => array(
-			'titre' => '',
+        'name'          => 'Dernier Titre',
+        'type'          => 'info',
+        'subType'       => 'string',
+        'configuration' => array(
+            'titre' => '',
         ),
     ),
-	
     array(
-        'name' => 'Refresh',
-        'type' => 'action',
+        'name'    => 'Refresh',
+        'type'    => 'action',
         'subType' => 'other',
-    ),	
+    ),
 );
-
-?>
